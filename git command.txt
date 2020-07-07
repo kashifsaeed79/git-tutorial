@@ -1,0 +1,57 @@
+For status"
+$ git status
+-----
+check log with differentiate 
+$ git log -p
+
+for specific number
+$ git log -p -n 
+
+where n is a simple any number 1 -10-100-----
+e.g
+$ git log -p -2
+--------
+for small summary"
+
+git log --stat
+------------
+check log list in one line 
+
+$ git log --pretty=oneline
+----------
+check log in short form
+
+$ git log --pretty=short
+-----
+check log with some extra
+
+$ git log --pretty=full
+----
+check last specific days/week/months/years log
+
+$ git log --since=2.days
+or
+$ git log --since=2.months
+---
+if you want a log in specific format, follow this link
+https://git-scm.com/docs/git-log
+e.g
+
+$ git log --pretty=format:"%h -- %an"   (%h = hash key, %an = auther name)
+or
+$ git log --pretty=format:"%h -- %en"   (%h = hash key, %an = auther email)
+------
+un-stage the any file
+
+$ git restore --staged <filename>
+----
+file return its origional status ( reture back after any wrong addition/deletion)
+
+$ git checkout -- <filename>
+----
+if you full folder return back stage
+
+$ git checkout -f
+--------
+
+
