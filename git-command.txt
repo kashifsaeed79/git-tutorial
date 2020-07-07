@@ -53,5 +53,7 @@ if you full folder return back stage
 
 $ git checkout -f
 --------
+Alias
+for short command for status
 
-
+$ git config --global alias.st status
